@@ -8,5 +8,5 @@ docker-compose up --build
 
 **GET** - localhost:8000/data/health
 
-**POST - localhost:8000/data/process**
+**POST** - localhost:8000/data/process
 body - {"data": "The text need for word count"}
