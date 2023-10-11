@@ -1,11 +1,12 @@
-# fastapi_microservice_pyspark
-The simple structure and working dokcer containerized python fast api supporting pysparks
+# Fastapi_Microservice_Pyspark
+The simple structure and working docker containerized python fast API supporting pysparks
 
-RUN
-dokcer-compose up --build
+# **RUN**
+docker-compose up --build
 
-Two api's will be availble on
-GET - localhost:8000/data/health
+# **Two API's will be available on**
 
-POST - localhost:8000/data/process
-body - {"data":"The text need for word count"}
+**GET** - localhost:8000/data/health
+
+**POST - localhost:8000/data/process**
+body - {"data": "The text need for word count"}
